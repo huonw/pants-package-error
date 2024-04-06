@@ -5,3 +5,5 @@ backend_packages = ["pants.backend.python"]
 [python]
 enable_resolves = true
 interpreter_constraints = ["CPython==3.11.*"]
+
+resolves = { python-default = "default.lock" }
