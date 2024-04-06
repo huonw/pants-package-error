@@ -5,3 +5,5 @@ pex_binary(
     dependencies=[":lib"],
     complete_platforms=["3rdparty/platforms:docker_python_311_amd64"],
 )
+
+python_tests(name="test")
