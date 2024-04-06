@@ -1,3 +1,8 @@
+python_requirement(
+    name="pbipy",
+    requirements=["pbipy"],
+)
+
 python_sources(name="lib")
 
 pex_binary(
