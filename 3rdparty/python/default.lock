@@ -6,7 +6,7 @@
 // {
 //   "version": 3,
 //   "valid_for_interpreter_constraints": [
-//     "CPython==3.11.8"
+//     "CPython==3.11.*"
 //   ],
 //   "generated_with_requirements": [
 //     "pbipy"
@@ -267,7 +267,7 @@
     "pbipy"
   ],
   "requires_python": [
-    "==3.11.8"
+    "==3.11.*"
   ],
   "resolver_version": "pip-2020-resolver",
   "style": "universal",

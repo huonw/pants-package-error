@@ -12,7 +12,7 @@ enabled = false
 [python]
 tailor_pex_binary_targets = false
 enable_resolves = true
-interpreter_constraints = ["CPython==3.11.8"]
+interpreter_constraints = ["CPython==3.11.*"]
 
 [python-infer]
 use_rust_parser = true
