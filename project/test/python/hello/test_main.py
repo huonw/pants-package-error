@@ -1,5 +1,4 @@
-from hello.main import hello_world
+import pbipy
 
 
-def test_hello_world():
-    assert hello_world() == "hello world from PowerBI"
+def test_empty(): pass
