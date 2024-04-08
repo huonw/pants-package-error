@@ -7,3 +7,6 @@ enable_resolves = true
 interpreter_constraints = ["CPython==3.11.*"]
 
 resolves = { python-default = "default.lock" }
+
+[pex]
+verbosity = 1
